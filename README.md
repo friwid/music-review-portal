@@ -10,8 +10,10 @@ npm
 npm install
 ```
 
-### Compile und Hot-Reload für Entwicklung und Darstellung der App im Browser: <http://localhost:5173/>
+### Compile und Hot-Reload für Entwicklung
 
 ```sh
 npm run dev
 ```
+
+Darstellung der App im Browser: <http://localhost:5173/>
