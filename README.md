@@ -4,11 +4,13 @@ Dieses Repository enthält den Code-Teil der Alternative A der Modulabschlusspr�
 
 ## Projekt Setup
 
+npm
+
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile und Hot-Reload für Entwicklung und Darstellung der App im Browser: <http://localhost:5173/>
 
 ```sh
 npm run dev
