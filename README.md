@@ -4,8 +4,6 @@ Dieses Repository enth√§lt den Code-Teil der Alternative A der Modulabschlusspr√
 
 ## Projekt Setup
 
-npm
-
 ```sh
 npm install
 ```
