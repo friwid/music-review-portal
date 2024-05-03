@@ -9,6 +9,8 @@
 body {
   min-height: 100vh;
   margin: 0;
+  font-size: 12px;
+  font-weight: normal;
   background-color: rgb(29, 29, 29);
 }
 
@@ -17,6 +19,6 @@ body {
   margin: 0 auto;
 }
 .wrapper {
-  min-height: 100vh;
   margin: 0 auto;
+  min-height: 90vh;
 }
