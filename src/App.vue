@@ -3,8 +3,12 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  test
+  <span>App.vue</span>
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+span {
+  color: red;
+}
+</style>
