@@ -14,6 +14,6 @@ export default defineConfig({
   },
   base: '/music-review-portal/',
   build: {
-    outDir: './docs'
+    outDir: './dist'
   }
 })
