@@ -3,12 +3,12 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <span></span>
   <RouterView />
+  <span class="githubPagesRouterFix"></span>
 </template>
 
 <style scoped>
-span {
+span.githubPagesRouterFix {
   display: hidden;
 }
 </style>
