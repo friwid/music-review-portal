@@ -1,6 +1,7 @@
 <script setup></script>
 
 <template>
+  <span>HomeView.vue</span>
   <div class="wrapper">
     <header>
       <nav></nav>
@@ -16,6 +17,10 @@
 </template>
 
 <style scoped>
+span {
+  color: red;
+}
+
 .wrapper {
   line-height: 1.6;
   font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow',
