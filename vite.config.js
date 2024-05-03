@@ -12,7 +12,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: './',
+  base: '/music-review-portal/',
   build: {
     outDir: './docs'
   }
