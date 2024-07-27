@@ -7,8 +7,8 @@
     </header>
     <div class="wrapper">
       <main>
-        <h1>Login</h1>
         <form>
+          <h1>Login</h1>
           <label for="email">E-Mail:</label>
           <input type="email" id="email" name="email" required />
           <label for="password">Password:</label>
@@ -26,31 +26,7 @@
   font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow',
     sans-serif-condensed, sans-serif;
   padding: 10px;
-}
-
-.backButton {
-  display: block;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-radius: 15px;
-  font-size: 2em;
-  line-height: 1.3em;
-  background-color: rgb(15, 15, 15);
-  box-shadow:
-    black 0 0 10px,
-    inset orangered 0 0 20px;
-  transition:
-    color 1s ease-out,
-    box-shadow 1s ease-out;
-}
-.backButton:hover {
-  box-shadow:
-    black 0 0 10px 2px,
-    inset springgreen 0 0 20px;
-  transition:
-    color 0.2s ease-out,
-    box-shadow 0.2s ease-out;
+  color: white;
 }
 
 .wrapper {
@@ -59,31 +35,26 @@
   justify-content: center;
 }
 
-a,
-a:visited {
-  text-decoration: none;
-  color: orangered;
-  text-shadow: rgb(0, 0, 0) 0 0 4px;
-  transition:
-    color 1s ease-out,
-    text-shadow 1s ease-out;
-}
-
-a:hover,
-a:active {
-  color: springgreen;
-  text-shadow: rgb(0, 0, 0) 0 0 4px;
-  transition:
-    color 0.2s ease-out,
-    text-shadow 0.2s ease-out;
-}
-
 form {
   display: flex;
   flex-direction: column;
+  background-color: rgba(0, 191, 255, 0.138);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow:
+    black 0 0 50px,
+    deepskyblue 0 0 300px 150px;
+  transition: box-shadow 2s ease-out;
 }
 label,
 button {
   margin-top: 10px;
+  line-height: 1.5em;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  line-height: 1.5em;
 }
 </style>
