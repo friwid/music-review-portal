@@ -14,6 +14,24 @@ const router = createRouter({
       name: 'a1',
       props: false,
       component: () => import('../views/A1View.vue')
+    },
+    {
+      path: '/a2',
+      name: 'a2',
+      props: false,
+      component: () => import('../views/A2View.vue')
+    },
+    {
+      path: '/a3',
+      name: 'a3',
+      props: false,
+      component: () => import('../views/A3View.vue')
+    },
+    {
+      path: '/a4',
+      name: 'a4',
+      props: false,
+      component: () => import('../views/A4View.vue')
     }
   ]
 })

@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-size: 12px;
   font-weight: normal;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(0, 0, 0);
 }
 
 #app {
@@ -21,4 +21,43 @@ body {
 .wrapper {
   margin: 0 auto;
   min-height: 90vh;
+}
+
+.backButton {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 2em;
+  line-height: 1.3em;
+
+  box-shadow:
+    black 0 0 10px,
+    inset orangered 0 0 20px;
+  transition: box-shadow 1s ease-out;
+}
+.backButton:hover {
+  box-shadow:
+    black 0 0 10px 2px,
+    inset springgreen 0 0 20px;
+  transition: box-shadow 0.2s ease-out;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: orangered;
+  text-shadow: rgb(0, 0, 0) 0 0 4px;
+  transition:
+    color 1s ease-out,
+    text-shadow 1s ease-out;
+}
+
+a:hover,
+a:active {
+  color: springgreen;
+  text-shadow: rgb(0, 0, 0) 0 0 4px;
+  transition:
+    color 0.2s ease-out,
+    text-shadow 0.2s ease-out;
 }
